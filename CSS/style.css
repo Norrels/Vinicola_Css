@@ -1,0 +1,529 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+
+*{
+    padding: 0px;
+    margin: 0px;}
+
+/* Div que está a logo e a Navbar */
+.cabecalho{
+    background-color: #621D29 ;
+    display: flex;
+    flex-direction: column;
+}
+/* Class da logo */
+.logo{
+    margin: auto;
+    width: 11.25em;
+    height: 11.25em;
+    background-image: url('../IMG/logo.png');
+    background-size: cover;
+}
+/* Class para NavBar */
+.navbar{
+    background-color: #8F3C58;
+    padding: 1.25em 0em 1.25em 0em;
+    border-radius: 1.25em 1.25em 0em 0em
+}
+/* Arrumando as caracteristicas da lista */
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff; 
+}
+/* Arrumando as caracteristicas das linhas da lista */
+.navbar li{
+    margin-top: 0.625em;
+}
+/* Colocando o Hover na navbar */
+.navbar li:hover{
+    color: #b3b3b3;
+}
+
+/* Div que está o conteudo Principal */
+.ContPrincipal{
+    background-color: #A68376;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 1.955em;
+}
+/* Div para o H1 e P representado o Couteudo principal */
+.TextoMain{
+    height: auto;
+    padding: 1.875em 1.875em 2.188em 1.875em;
+}
+/* Formatando o paragrafo do conteudo principal */
+.TextoMain p{
+    text-align: center;
+    margin-bottom: 0.625em;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+}
+/* Formatando o titulo do conteudo pricipal */
+.TextoMain h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.875em;
+    margin-left: 0.625em;
+}
+/* Sub classe da classe Texto main onde está area do botão e a imagem do vinho */
+.Subtexto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* Id para formata a imagem do vinho */
+#vinho{
+    width: auto;
+    height: 11.25em;
+}
+/* Classe da imagem do vinho Png */
+.VinhoPng{
+    width: 12.5em;
+    margin-left: 9.375em;
+    margin-bottom: 6.25em;
+    height: 0.625em;
+}
+/* Classe da area do botão */
+.BotaoArea{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5em;
+    padding-top: auto;
+    margin-bottom: 0.625em;
+}
+/* Formatando o texto que está acima do botão */
+.BotaoArea h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5em;
+    
+}
+/* Configurando o botão */
+.BotaoArea button{
+    padding: 0.938em;
+    margin: 0.938em 12.5em 0em 0.938em;
+    background-color: #BF5E66;
+    border: none;
+    color: #fff;
+    border-radius: 1.25em;
+}
+/* Configurando o Hover do botão */
+.BotaoArea button:hover{
+    background-color: #8F3C58;
+}
+/* Div para a seção de Especialidades com as fotos do vinhos */
+.galeria h1{
+    background-color: #621D29;
+    height: auto;
+    padding: 1em 0.75em 1.875em 1.875em;
+    color: #fff;
+}
+/* Div para que estão as fotos */
+.fotos{
+    background-color: #691321;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* Deixando o hover em display none */
+.hoverr{
+    display: none;
+    padding-top: 90px;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* Formantando as imagens */
+.galeriaFts1{
+    height:  14.375em;
+    background-image: url("../IMG/ft1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.625em; 
+}
+.galeriaFts1:hover .hoverr{
+    display:block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.875em;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.galeriaFts2{
+    height: 14.375em;
+    background-image: url('../IMG/ft2.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.625em; 
+}
+.galeriaFts2:hover .hoverr{
+    display:block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.875em;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.galeriaFts3{
+    height: 14.375em;
+    background-image: url('../IMG/ft3.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.625em; 
+}
+.galeriaFts3:hover .hoverr{
+    display:block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.875em;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.galeriaFts4{
+    height:  14.375em;
+    background-image: url('../IMG/ft4.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.625em; 
+}
+.galeriaFts4:hover .hoverr{
+    display:block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.875em;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.galeriaFts5{
+    height:  14.375em;
+    background-image: url('../IMG/ft5.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.625em; 
+}
+.galeriaFts5:hover .hoverr{
+    display:block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.875em;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.galeriaFts6{
+    height:  14.375em;
+    background-image: url('../IMG/ft6.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.625em; 
+}
+.galeriaFts6:hover .hoverr{
+    display:block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.875em;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+/* Divs para localização  */
+.local h1{
+    background-color: #691321;
+    color: #fff;
+    height: auto;
+    padding: 1em 0.75em 0.625em 1.875em;
+    box-sizing: border-box;
+}
+/* Div que estão as fotos da localização */
+.fotos2{
+    background-color: #691321;
+    box-sizing: border-box;
+    height: auto;
+    padding: 0.625em 0.625em 1.875em 0.625em;  
+    display: flex;
+    flex-direction: column;
+}
+/* Id para configurar a imagem da vinicola */
+#vinicola{
+    background-image: url('../IMG/vinicola.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 9.625em;
+}
+.galeriaFt{
+    height:  auto;
+    margin-bottom: 0.625em;
+}
+.rodape{
+    background-color: #812F4B;
+    height: auto;
+    padding: 1.25em;
+}
+.rodape ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0em 1.875em 0em 1.875em;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+
+/* Div que está a logo e Navbar */
+.cabecalho{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+   margin-left: 0.625em;
+}
+.navbar ul{
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    text-align:center;
+}
+.navbar{
+    height: 10%;
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 1.25em 0em 0em 1.25em;
+}
+.navbar  li{
+    flex-wrap: nowrap;
+    width: 30%;
+    margin-top: 0em;
+}
+/* Div que está o conteudo principal */
+.textoMain h1{
+    padding: 1.25em 3.125em 0em ;
+}
+.TextoMain p{
+    padding: 1.25em 7.5em 0em 7.5em;
+}
+.VinhoPng{
+    height: 15em;
+    width: 20%;
+    margin-left: 1.25em;
+}
+.Subtexto{
+    padding: 0em 10% 0em 18%;
+    box-sizing: border-box;
+}
+#vinho{
+    width: 12.5em;
+}
+.ContPrincipal{
+    padding-bottom: 0.625em;
+    height: 25em;
+}
+.BotaoArea{
+    width: auto;
+    margin-left: 9.375em;
+    margin: 0em;
+    padding: 0em;
+}
+.BotaoArea h1{
+    font-size: 3.125em;
+    margin-left: 150px;
+}
+.BotaoArea button{
+    width: auto;
+    height: 3.125em;
+    margin: 10px 3.125em 0px 180px;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.hoverr{
+    padding-top: 2.188em  ;
+}
+.galeria h1{
+    background-color:#691321;
+    padding: 1.25em;
+    color: #fff;
+}
+.galeriaFts1{
+    width: 30%;
+    height: 12.5em;
+    margin: auto;
+    margin-bottom: 0.625em;
+}
+.galeriaFts2{
+    width: 30%;
+    height: 12.5em;
+    margin: auto;
+    margin-bottom: 0.625em;
+}
+.galeriaFts3{
+    width: 30%;
+    height: 12.5em;
+    margin: auto;
+    margin-bottom: 0.625em;
+}
+.galeriaFts4{
+    width: 30%;
+    height: 12.5em;
+    margin: auto;
+    margin-bottom: 0.625em;
+}
+.galeriaFts5{
+    width: 30%;
+    height: 12.5em;
+    margin: auto;
+    margin-bottom: 0.625em;
+}
+.galeriaFts6{
+    width: 30%;
+    height: 12.5em;
+    margin: auto;
+    margin-bottom: 0.625em;
+}
+.fotos2{
+    background-color: #691321;
+    box-sizing: border-box;
+    height: auto;
+    padding: 0.625em 0.625em 1.875em 0.625em;  
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.galeriaFt{
+    width: 50%;
+    padding: 0em 0.625em 0em 0em;
+}
+#vinicola{
+    background-image: url('../IMG/vinicola.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 12.5em;
+}
+}
+@media screen and (min-width: 1200px) {
+
+.logo{
+    margin-left: 1.25em;
+}
+.TextoMain{
+    padding-left :1.25em;
+    width: 40%;
+    margin: 0em;
+    padding: 5em;
+}
+.TextoMain p{
+    width: 90%;
+    padding: 2.5em 0.625em 0em 3.125em;
+}
+.TextoMain h1{
+    font-size: 2.5em;
+    margin-top: 1.25em;
+}
+.ContPrincipal{
+    display: flex;
+    flex-direction: row;
+    margin: 0em;
+    padding: 0em;
+}
+.galeriaFts1{
+        width: 30%;
+        height: 12.5em;
+        margin: auto;
+        margin-bottom: 0.625em;
+        margin-left: 0.313em;
+}
+.galeriaFts2{
+        width: 30%;
+        height: 12.5em;
+        margin: auto;
+        margin-bottom: 0.625em;
+        margin-left: 0.313em;
+}
+.galeriaFts3{
+        width: 30%;
+        height: 12.5em;
+        margin: auto;
+        margin-bottom: 0.625em;
+        margin-left: 0.313em;
+}
+.galeriaFts4{
+        width: 30%;
+        height: 12.5em;
+        margin: auto;
+        margin-bottom: 0.625em;
+        margin-left: 0.313em;
+}
+.galeriaFts5{
+        width: 30%;
+        height: 12.5em;
+        margin: auto;
+        margin-bottom: 0.625em;
+        margin-left: 0.313em;
+}
+.galeriaFts6{
+        width: 30%;
+        height: 12.5em;
+        margin: auto;
+        margin-bottom: 0.625em;
+        margin-left: 0.313em;
+}
+.BotaoArea{
+    width: 100%;
+}
+.BotaoArea h1{
+    margin-top: 100px;
+}
+.BotaoArea button{
+    padding: 0.938em;
+    margin: 0.938em 300px 0em 150px;
+    border-radius: 1.25em;
+}
+.fotos{
+    flex-wrap: nowrap;
+}
+#vinho{
+    height: 80%;
+    margin-top: 2.50em;
+    width: cover;
+}  
+.VinhoPng{
+    width: 30%;
+    margin-top: 50px;
+}
+.Subtexto{
+padding: 0px 10px 0px 10px;
+width: 50%;
+}
+.fotos2{
+    background-color: #691321;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px 1.25em 1.875em 1.25em;  
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+}
+.galeriaFt{
+    width: 50%;
+    padding: 0px 10px 0px 0px;
+    height: 400px;
+}
+#vinicola{
+    background-image: url('../IMG/vinicola.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+}
